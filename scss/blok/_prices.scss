@@ -1,0 +1,144 @@
+.prices__inner {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.prices__heading {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343d;
+}
+
+.prices__text {
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343d;
+}
+
+.pricesList {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pricesList__item {
+  width: 322px;
+  padding-top: 24px;
+  padding-bottom: 32px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.pricesList__item:hover {
+  background-color:  #02897a;
+  .pricesList__heading, .pricesList__text, .number, .currency, .servicesList__link {
+    color: white;
+  }
+  .servicesList__btn {
+    color: #02897a;
+    background-color: #ffffff;
+  }
+  .time {
+    color: #e0e0e0;
+  }
+  .servicesList__btn:hover {
+    background-color: #ece7e7;
+  }
+  .servicesList__btn:active {
+    background-color: #f7eeee;
+  }
+}
+
+.pricesList__heading {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343d;
+}
+
+.pricesList__text {
+  margin: 0;
+  margin-bottom: 14px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #22343D;
+}
+
+.pricesList__price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #02897a;
+}
+
+.currency-div {
+  text-align: left;
+  margin-left: 8px;
+  margin-bottom: 16px;
+}
+
+.currency {
+  font-family: "Inter", sans-serif;
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 7px;
+  letter-spacing: 0.1px;
+  color: #02897a;
+}
+
+.time {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  color: #afafaf;
+}
+
+.servicesList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.servicesList__item {
+  margin-bottom: 16px;
+}
+
+.servicesList__link {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #22343D;
+}
+
+.servicesList__btn {
+  margin-top: 22px;
+}

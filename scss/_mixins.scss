@@ -1,0 +1,17 @@
+@mixin flexStayle($align-item, $just-content) {
+  display: flex;
+  align-items: $align-item;
+  justify-content: $just-content;
+}
+
+@mixin linkStyle($text-dec, $font-size, $color) {
+  text-decoration: $text-dec;
+  font-size: $font-size;
+  color: $color;
+}
+
+@mixin listStyle($type, $margin, $padding) {
+  list-style-type: $type;
+  margin: $margin;
+  padding: $padding;
+}
