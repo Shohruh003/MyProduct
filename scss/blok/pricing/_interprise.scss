@@ -1,0 +1,52 @@
+.interprise__inner {
+  padding-top: 53px;
+  padding-bottom: 51px;
+  text-align: center;
+}
+
+.interprise__heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #22343d;
+}
+
+.interprise__middleText {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343d;
+}
+
+.interprise__littleText {
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22343d;
+}
+
+.interprise__btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 11px 18px;
+  border: none;
+  background-color: #02897a;
+  border-radius: 8px;
+}
+
+.interprise__btn:hover {
+  background-color: #039a88;
+}
+
+.interprise__btn:active {
+  background-color: #05b39e;
+}

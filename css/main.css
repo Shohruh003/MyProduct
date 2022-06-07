@@ -178,6 +178,15 @@ img {
   color: #22343d;
 }
 
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.nav__link:active {
+  text-decoration: none;
+  color: red;
+}
+
 .nav__button {
   padding: 9px 24px;
   font-weight: 600;
@@ -989,4 +998,358 @@ img {
 
 .companies__btn:active {
   background-color: #f2e7e7;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.footer__network {
+  margin-top: 28px;
+}
+
+.footer_link {
+  margin-right: 16px;
+  background-color: #edfffc;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.resource__heading {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22343d;
+}
+
+.resource__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.resource__link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: #22343d;
+}
+
+.resource__link:hover {
+  text-decoration: underline;
+}
+
+.resource__link:active {
+  text-decoration: none;
+}
+
+.legal__heading {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22343d;
+}
+
+.legal__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.legal__link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: #22343d;
+}
+
+.legal__link:hover {
+  text-decoration: underline;
+}
+
+.legal__link:active {
+  text-decoration: none;
+}
+
+.tegister__text {
+  margin: 0;
+  margin-bottom: 34px;
+  width: 250px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22343d;
+}
+
+.input-email {
+  display: block;
+  padding: 10px 128px 10px 15px;
+  margin-bottom: 21px;
+  background: #FFFFFF;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+}
+
+.form__signUp {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #02897a;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+}
+
+.form__signUp:hover {
+  background-color: #039a88;
+}
+
+.form__signUp:active {
+  background-color: #05b39e;
+}
+
+.footer__linkImg:hover path {
+  fill: #05b39e;
+}
+
+.footer__linkImg:active path {
+  fill: none;
+}
+
+.pricing__inner {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.pricing__heading {
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #22343d;
+}
+
+.prices__middleText {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #22343D;
+}
+
+.pices__littleText {
+  margin: 0;
+  margin-bottom: 49px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #22343d;
+}
+
+.interprise__inner {
+  padding-top: 53px;
+  padding-bottom: 51px;
+  text-align: center;
+}
+
+.interprise__heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #22343d;
+}
+
+.interprise__middleText {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343d;
+}
+
+.interprise__littleText {
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22343d;
+}
+
+.interprise__btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 11px 18px;
+  border: none;
+  background-color: #02897a;
+  border-radius: 8px;
+}
+
+.interprise__btn:hover {
+  background-color: #039a88;
+}
+
+.interprise__btn:active {
+  background-color: #05b39e;
+}
+
+.effects__inner {
+  padding: 150px 0px;
+}
+
+.effects__heading {
+  margin: 0;
+  margin-bottom: 80px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  text-align: center;
+  color: #22343d;
+}
+
+.effects__types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.effects__list {
+  width: 480px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.effects__item {
+  margin-bottom: 39px;
+}
+
+.effects__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 16px;
+}
+
+.effects__listHeading {
+  margin: 0;
+  margin-left: 14px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #22343D;
+}
+
+.effects__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #22343d;
+}
+
+.questions__inner {
+  padding: 150px 0px;
+}
+
+.questions__heading {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  text-align: center;
+  color: #22343d;
+}
+
+.questions__text {
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #22343d;
+}
+
+.questions__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.questions__item {
+  padding-bottom: 22px;
+  margin-bottom: 16px;
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.questions__question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.questions__questionText {
+  margin: 0;
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22343d;
+}
+
+.questions__littleText {
+  margin: 0;
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343d;
 }

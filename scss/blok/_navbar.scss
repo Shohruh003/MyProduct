@@ -22,6 +22,15 @@
   color: #22343d;
 }
 
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.nav__link:active {
+  text-decoration: none;
+  color: red;
+}
+
 .nav__button {
   padding: 9px 24px;
   font-weight: 600;
