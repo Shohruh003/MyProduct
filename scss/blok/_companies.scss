@@ -41,3 +41,25 @@
 .companies__btn:active {
   background-color: #f2e7e7;
 }
+
+
+@media only screen and (max-width: 520px) {
+  .companies__inner {
+    width: auto;
+    flex-direction: column;
+    padding: 17px 21px;
+    text-align: center;
+  }
+
+  .companies__content {
+    width: auto;
+    margin-bottom: 42px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .companies__img {
+    width: 300px;
+    height: auto;
+  }
+}

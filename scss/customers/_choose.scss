@@ -54,3 +54,26 @@
   letter-spacing: 0.2px;
   color: #22343D;
 }
+
+
+
+@media only screen and (max-width: 520px) {
+  .choose__inner {
+    padding: 24px 0px 61px 0px;
+  }
+
+  .choose__heading {
+    font-size: 33px;
+    line-height: 48px;
+  }
+
+  .choose__list {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .choose__item {
+    width: 300px;
+  }
+}

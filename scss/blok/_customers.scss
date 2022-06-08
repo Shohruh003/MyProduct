@@ -82,3 +82,29 @@
   letter-spacing: 0.2px;
   color: #252b42;
 }
+
+
+@media only screen and (max-width: 520px) {
+  .customers__inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .customers__text {
+    margin-bottom: 0;
+  }
+
+  .customersList {
+    flex-direction: column;
+  }
+
+  .customersList__item {
+    margin-top: 32px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .customersList__item {
+    width: 300px;
+  }
+}

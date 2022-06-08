@@ -78,3 +78,49 @@
 .work__btn:active {
   background-color: #05b39e;
 } 
+
+
+@media only screen and (max-width: 520px) {
+  .work__inner {
+    padding: 96px 0px 70px 0px;
+    text-align: center;
+  }
+
+  .work__heading {
+    margin-bottom: 79px;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .work__item {
+    flex-direction: column;
+    margin-bottom: 77px;
+  }
+
+  .first__itemWork {
+    flex-direction: column-reverse;
+  }
+
+  .work__content {
+    width: auto;
+    margin-top: 70px;
+    text-align: left;
+  }
+
+  .work__itemImg {
+    width: 400px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .work__itemImg {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .work__itemImg {
+    width: 300px;
+  }
+}
