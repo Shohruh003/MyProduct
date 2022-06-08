@@ -1,6 +1,7 @@
 .interprise {
   background: linear-gradient(180deg, #F7F7F7 0%, rgba(247, 247, 247, 0) 100%);
 }
+
 .interprise__inner {
   padding-top: 53px;
   padding-bottom: 51px;
@@ -53,4 +54,22 @@
 
 .interprise__btn:active {
   background-color: #05b39e;
+}
+
+
+@media only screen and (max-width: 520px) {
+  .interprise__inner {
+    padding-top: 47px;
+    padding-bottom: 46px;
+  }
+
+  .interprise__heading {
+    margin-bottom: 24px;
+  }
+
+  .interprise__middleText {
+    margin-bottom: 25px;
+    font-size: 32px;
+    line-height: 48px;
+  }
 }

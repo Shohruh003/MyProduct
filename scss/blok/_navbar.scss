@@ -16,6 +16,14 @@
 
 .nav__link {
   text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #22343d;
+}
+
+.nav__link--active {
+  text-decoration: none;
   font-weight: 600;
   font-size: 16px;
   line-height: 28px;

@@ -59,3 +59,23 @@
   line-height: 24px;
   color: #22343d;
 }
+
+
+@media only screen and (max-width: 520px) {
+  .questions__inner {
+    padding: 100px 10px;
+  }
+
+  .questions__heading {
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .questions__text {
+    margin-bottom: 30px;
+  }
+
+  .questions__item {
+    width: auto;
+  }
+}
