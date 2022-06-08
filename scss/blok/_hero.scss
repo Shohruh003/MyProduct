@@ -55,3 +55,48 @@
 .hero__triangle {
   margin-right: 8px;
 }
+
+
+
+@media only screen and (max-width: 520px) {
+  .hero__inner {
+    flex-wrap: wrap-reverse;
+  }
+  .hero__content {
+    width: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .hero__img {
+    width: 388px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero__heading {
+    width: auto;
+    margin-bottom: 16px;
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .hero__img {
+    width: 300px;
+  }
+
+  .hero__heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .hero__videoBtn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+}

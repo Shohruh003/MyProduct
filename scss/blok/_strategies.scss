@@ -44,3 +44,33 @@
 .card-boltSecondText {
   color: #02897a;
 }
+
+.card {
+  width: 380px;
+  display: inline-block;
+  text-align: left;
+}
+.card-first {
+  margin: 0px 40px;
+}
+
+@media only screen and (max-width: 520px) {
+  .strategies__inner {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+
+  .strategies__text {
+    margin-bottom: 40px;
+  }
+
+  .card-div {
+    margin: 0;
+    width: 300px;
+    padding-bottom: 40px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

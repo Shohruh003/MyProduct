@@ -28,6 +28,10 @@
   color: #22343d;
 }
 
+.management__middleText {
+  display: none;
+}
+
 .management__smallHeading {
   margin: 0;
   margin-bottom: 12px;
@@ -48,3 +52,41 @@
 .managemant__texts {
   margin-bottom: 25px;
 }
+
+
+@media only screen and (max-width: 520px) {
+  .management__inner {
+    flex-wrap: wrap-reverse;
+    padding-top: 95px;
+  }
+  .management__img {
+    width: 349px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .management__content {
+    width: auto;
+    margin-top: 50px;
+  } 
+
+  .management__heading {
+    margin-bottom: 16px;
+  }
+
+  .management__middleText {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+    color: #22343d;
+  }
+} 
+
+@media only screen and (max-width: 360px) {
+  .management__img {
+    width: 300px;
+  }
+} 

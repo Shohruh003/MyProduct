@@ -58,3 +58,38 @@
 .managemant__texts {
   margin-bottom: 25px;
 }
+
+
+@media only screen and (max-width: 520px) {
+  .collaborative__inner {
+    flex-wrap: wrap-reverse;
+    padding-top: 97px;
+    padding-bottom: 67px;
+  }
+
+  .collaborative__img {
+    width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .collaborative__content {
+    width: auto;
+    margin-top: 50px;
+  }
+
+  .collaborative__heading {
+    margin-bottom: 16px;
+  }
+
+  .collaborative__middleText {
+    margin-bottom: 16px;
+  }
+} 
+
+@media only screen and (max-width: 360px) {
+  .collaborative__img {
+    width: 300px;
+  }
+} 

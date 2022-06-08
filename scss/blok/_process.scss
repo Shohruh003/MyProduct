@@ -95,3 +95,43 @@
 .process__btn {
   margin-top: 24px;
 }
+
+
+@media only screen and (max-width: 520px) {
+  .process__inner {
+    padding-top: 73px;
+  }
+
+  .process__heading {
+    margin-bottom: 8px;
+  }
+  
+  .process__text {
+    width: auto;
+    margin-bottom: 40px;
+  }
+
+  .processList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .processList__text {
+    display: block;
+  }
+
+  .processList__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .process__secondItem {
+    margin-left: auto;
+    margin-right: auto;
+  }
+} 

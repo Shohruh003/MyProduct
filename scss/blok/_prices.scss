@@ -142,3 +142,27 @@
 .servicesList__btn {
   margin-top: 22px;
 }
+
+
+@media only screen and (max-width: 520px) {
+  .prices__inner {
+    padding-top: 98px;
+  }
+  
+  .prices__text {
+    margin-bottom: 74px;
+  }
+
+  .pricesList {
+    flex-direction: column;
+  }
+  
+  .pricesList__item {
+    margin-bottom: 32px;
+  }
+} 
+@media only screen and (max-width: 360px) {
+  .pricesList__item {
+    width: 300px;
+  }
+}

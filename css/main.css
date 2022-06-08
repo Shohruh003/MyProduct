@@ -151,6 +151,27 @@ img {
           align-items: center;
 }
 
+.hamburger-button {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+
+.hamburger-img {
+  display: block;
+  width: 20px;
+  height: 17px;
+}
+
+@media only screen and (max-width: 520px) {
+  .navbar, .nav__item {
+    display: none;
+  }
+  .hamburger-button {
+    display: block;
+  }
+}
+
 .nav {
   margin-left: auto;
 }
@@ -304,6 +325,48 @@ img {
   margin-right: 8px;
 }
 
+@media only screen and (max-width: 520px) {
+  .hero__inner {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  .hero__content {
+    width: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .hero__img {
+    width: 388px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero__heading {
+    width: auto;
+    margin-bottom: 16px;
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .hero__img {
+    width: 300px;
+  }
+  .hero__heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .hero__videoBtn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+}
+
 .built {
   background-color: #e5e5e5;
 }
@@ -362,6 +425,25 @@ img {
   color: #22343d;
 }
 
+@media only screen and (max-width: 520px) {
+  .built__heading {
+    width: auto;
+    margin-bottom: 50px;
+  }
+  .builtList {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .builtList__item {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 37px;
+  }
+}
+
 .management__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -397,6 +479,10 @@ img {
   color: #22343d;
 }
 
+.management__middleText {
+  display: none;
+}
+
 .management__smallHeading {
   margin: 0;
   margin-bottom: 12px;
@@ -416,6 +502,41 @@ img {
 
 .managemant__texts {
   margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 520px) {
+  .management__inner {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    padding-top: 95px;
+  }
+  .management__img {
+    width: 349px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .management__content {
+    width: auto;
+    margin-top: 50px;
+  }
+  .management__heading {
+    margin-bottom: 16px;
+  }
+  .management__middleText {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+    color: #22343d;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .management__img {
+    width: 300px;
+  }
 }
 
 .support__inner {
@@ -487,6 +608,42 @@ img {
   width: 350px;
 }
 
+@media only screen and (max-width: 520px) {
+  .support__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-top: 97px;
+  }
+  .support__img {
+    width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .support__content {
+    width: auto;
+    margin-top: 97px;
+  }
+  .support__heading {
+    margin-bottom: 16px;
+  }
+  .support__text {
+    margin-bottom: 16px;
+  }
+  .supportList__text {
+    width: auto;
+  }
+  .supportList__firstText {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .support__img {
+    width: 300px;
+  }
+}
+
 .collaborative__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -551,6 +708,37 @@ img {
 
 .managemant__texts {
   margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 520px) {
+  .collaborative__inner {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    padding-top: 97px;
+    padding-bottom: 67px;
+  }
+  .collaborative__img {
+    width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .collaborative__content {
+    width: auto;
+    margin-top: 50px;
+  }
+  .collaborative__heading {
+    margin-bottom: 16px;
+  }
+  .collaborative__middleText {
+    margin-bottom: 16px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .collaborative__img {
+    width: 300px;
+  }
 }
 
 .process {
@@ -657,6 +845,50 @@ img {
   margin-top: 24px;
 }
 
+@media only screen and (max-width: 520px) {
+  .process__inner {
+    padding-top: 73px;
+  }
+  .process__heading {
+    margin-bottom: 8px;
+  }
+  .process__text {
+    width: auto;
+    margin-bottom: 40px;
+  }
+  .processList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .processList__text {
+    display: block;
+  }
+  .processList__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .process__secondItem {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .strategies__inner {
   padding-top: 150px;
   padding-bottom: 64px;
@@ -702,6 +934,35 @@ img {
 
 .card-boltSecondText {
   color: #02897a;
+}
+
+.card {
+  width: 380px;
+  display: inline-block;
+  text-align: left;
+}
+
+.card-first {
+  margin: 0px 40px;
+}
+
+@media only screen and (max-width: 520px) {
+  .strategies__inner {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  .strategies__text {
+    margin-bottom: 40px;
+  }
+  .card-div {
+    margin: 0;
+    width: 300px;
+    padding-bottom: 40px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .prices__inner {
@@ -864,6 +1125,30 @@ img {
 
 .servicesList__btn {
   margin-top: 22px;
+}
+
+@media only screen and (max-width: 520px) {
+  .prices__inner {
+    padding-top: 98px;
+  }
+  .prices__text {
+    margin-bottom: 74px;
+  }
+  .pricesList {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pricesList__item {
+    margin-bottom: 32px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .pricesList__item {
+    width: 300px;
+  }
 }
 
 .customers__inner {

@@ -10,3 +10,24 @@
   align-items: center;
 }
 
+.hamburger-button {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+
+.hamburger-img {
+  display: block;
+  width: 20px;
+  height: 17px;
+}
+
+
+@media only screen and (max-width: 520px) {
+  .navbar , .nav__item {
+    display: none;
+  }
+  .hamburger-button {
+    display: block;
+  }
+}
