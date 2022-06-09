@@ -950,6 +950,7 @@ img {
 
 .card {
   width: 380px;
+  margin-bottom: 32px;
   text-align: left;
 }
 
@@ -2167,5 +2168,337 @@ img {
   }
   .offers__item {
     margin-bottom: 66px;
+  }
+}
+
+.business__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 76px;
+}
+
+.business__content {
+  width: 535px;
+}
+
+.business__heading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 149%;
+  letter-spacing: -0.03em;
+  color: #22343d;
+}
+
+.business__text {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: -0.03em;
+  color: #22343d;
+}
+
+.business__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8px;
+  margin-bottom: 24px;
+  border: 1px solid #eaeaea;
+  border-radius: 100px;
+}
+
+.business__input {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #22343d;
+  border: none;
+}
+
+.business__btn {
+  padding: 18px 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  background: #02897A;
+  border-radius: 35px;
+  border: none;
+}
+
+.business__btn:hover {
+  background-color: #039a88;
+}
+
+.business__btn:active {
+  background-color: #05b39e;
+}
+
+.business__join {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.business__joinText {
+  margin: 0;
+  margin-left: 9px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #22343d;
+}
+
+.join__span {
+  color: #02897a;
+}
+
+.business__contImg {
+  display: none;
+}
+
+@media only screen and (max-width: 520px) {
+  .business__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .business__content {
+    width: auto;
+    margin-bottom: 87px;
+  }
+  .business__heading {
+    margin-bottom: 16px;
+    font-size: 36px;
+  }
+  .business__text {
+    margin-bottom: 19px;
+    line-height: 171%;
+  }
+  .business__contentImg {
+    display: none;
+  }
+  .business__contImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+  }
+  .business__join {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .business__contImg {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .business__input {
+    margin-left: 14px;
+    margin-right: 0;
+    width: 160px;
+  }
+  .business__btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+.strategies__resourceInner {
+  padding-top: 66px;
+  text-align: center;
+}
+
+.stories__btn {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #22343D;
+  border: none;
+  background-color: transparent;
+}
+
+.stories__icon {
+  margin-left: 8px;
+}
+
+.contact__inner {
+  padding-top: 160px;
+}
+
+.contact__heading {
+  margin: 0;
+  margin-bottom: 27px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.contact__text {
+  width: 312px;
+  margin: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 65px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #374754;
+}
+
+.contact__network {
+  margin-bottom: 66px;
+  text-align: center;
+}
+
+.contact__map {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.contact__forms {
+  width: 868px;
+  padding: 52px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 20px;
+}
+
+.contact__formHeading {
+  margin: 0;
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+.form__label {
+  display: block;
+  background: #f5f5f5;
+  border: 1px solid #e8e8e8;
+  border-radius: 39px;
+  padding: 19px 0px 19px 20px;
+  margin-bottom: 45px;
+}
+
+.form__input {
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #22343d;
+  border: none;
+  background-color: transparent;
+}
+
+.label-message {
+  border-radius: 0;
+  height: 150px;
+}
+
+.contact__formBtn {
+  padding: 18px 54px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  background: #02897a;
+  border-radius: 35px;
+  border: none;
+}
+
+.contact__formBtn:hover {
+  background-color: #039a88;
+}
+
+.contact__formBtn:active {
+  background-color: #05b39e;
+}
+
+@media only screen and (max-width: 520px) {
+  .contact__inner {
+    padding-top: 61px;
+  }
+  .contact__heading {
+    margin-bottom: 25px;
+  }
+  .contact__text {
+    margin-bottom: 124px;
+  }
+  .contact__network {
+    margin-bottom: 66px;
+    text-align: center;
+  }
+  .contact__map {
+    margin-bottom: 17px;
+  }
+  .contact__forms {
+    width: 450px;
+    padding-top: 105px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .contact__forms {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .contact__forms {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .contact__forms {
+    width: 300px;
   }
 }

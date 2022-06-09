@@ -1,0 +1,150 @@
+.business__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 76px;
+}
+
+.business__content {
+  width: 535px;
+}
+
+.business__heading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 149%;
+  letter-spacing: -0.03em;
+  color: #22343d;
+}
+
+.business__text {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: -0.03em;
+  color: #22343d;
+}
+
+.business__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  margin-bottom: 24px;
+  border: 1px solid #eaeaea;
+  border-radius: 100px;
+}
+
+.business__input {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #22343d;
+  border: none;
+}
+
+.business__btn {
+  padding: 18px 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  background: #02897A;
+  border-radius: 35px;
+  border: none;
+}
+
+.business__btn:hover {
+  background-color: #039a88;
+}
+
+.business__btn:active {
+  background-color: #05b39e;
+} 
+.business__join {
+  display: flex;
+  align-items: center;
+}
+
+.business__joinText {
+  margin: 0;
+  margin-left: 9px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #22343d;
+}
+
+.join__span {
+  color: #02897a;
+}
+
+.business__contImg {
+  display: none;
+}
+
+@media only screen and (max-width: 520px) {
+  .business__inner {
+    flex-direction: column;
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .business__content {
+    width: auto;
+    margin-bottom: 87px;
+  }
+  
+  .business__heading {
+    margin-bottom: 16px;
+    font-size: 36px;
+  }
+  
+  .business__text {
+    margin-bottom: 19px;
+    line-height: 171%;
+  }
+
+  .business__contentImg {
+    display: none;
+  }
+
+  .business__contImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+  }
+
+  .business__join {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .business__contImg {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .business__input {
+    margin-left: 14px;
+    margin-right: 0;
+    width: 160px;
+  }
+  .business__btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
